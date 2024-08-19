@@ -22,4 +22,23 @@ public class Hotel {
         this.listeReservations = listeReservations;
     }
     //endregion
+
+    // region Encapsulation
+
+    public List<Chambre> getListeChambres() {
+        return listeChambres;
+    }
+
+    public void setListeChambres(List<Chambre> listeChambres) {
+        this.listeChambres = listeChambres;
+    }
+
+    public List<Reservation> getListeReservations() {
+        return listeReservations;
+    }
+
+    public void setListeReservations(List<Reservation> listeReservations) {
+        this.listeReservations = listeReservations;
+    }
+    // endregion
 }
