@@ -41,4 +41,22 @@ public class Hotel {
         this.listeReservations = listeReservations;
     }
     // endregion
+
+    // region Methodes
+
+    public void addChambre(Chambre chambre) {
+        listeChambres.add(chambre);
+    }
+
+    public void deleteChambre(Chambre chambre) {
+        listeChambres.remove(chambre);
+    }
+
+    public void addReservation(Reservation reservation) {
+        listeReservations.add(reservation);
+    }
+    public void deleteReservation(Reservation reservation) {
+        listeReservations.remove(reservation);
+    }
+    // endregion
 }
